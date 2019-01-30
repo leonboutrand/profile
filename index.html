@@ -7,37 +7,50 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <img src="images/pp.jpg" alt="Profile picture" class="profile">
-      <h1>Léon</h1>
-      <h2>💻 Ruby programmer 💻</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptates inventore numquam expedita nihil eius commodi laboriosam nostrum nobis? Illum dolorem adipisci commodi quo iste ducimus omnis soluta, ipsam perspiciatis.</p>
+  <div id="sidebar">
+    <div class="side-link text-center">
+      <a href="#presentation"><i class="fas fa-user-circle"></i></a>
     </div>
-    <div class="card">
-      <ul class="list-inline text-center">
-        <li><a href="https://www.facebook.com/leon.boutrand" target="_blank"><i class="fab fa-facebook-f"></i><br>Facebook profile</a></li>
-        <li><a href="https://www.linkedin.com/in/leon-boutrand/" target="_blank"><i class="fab fa-linkedin-in"></i><br>LinkedIn profile</a></li>
-      </ul>
+    <div class="side-link text-center">
+      <a href="#social-network"><i class="fas fa-users"></i></a>
     </div>
-    <div class="card">
-      <h2>My favorite sports</h2>
-      <table>
-        <tbody class="text-center">
-          <tr>
-            <td><img src="images/zidane.jpeg" alt="Football"></td>
-            <td><h3>Football</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci temporibus qui sint fugiat alias saepe dicta perferendis, unde quas incidunt inventore nisi molestias deserunt, facere in consequuntur delectus eveniet eligendi?</p></td>
-          </tr>
-          <tr>
-            <td><img src="images/petanque.jpeg" alt="Pétanque"></td>
-            <td><h3>Pétanque</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto impedit, doloribus, accusantium tempore enim doloremque repellendus repudiandae, perspiciatis natus laboriosam voluptatibus dolorem tenetur rerum voluptatem neque voluptatum! Commodi molestiae, similique.</p></td>
-          </tr>
-          <tr>
-            <td><img src="images/pingpong.jpeg" alt="Ping-Pong"></td>
-            <td><h3>Ping-Pong</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsam consectetur reprehenderit deleniti laboriosam delectus sit saepe, aliquid illo veniam suscipit voluptas sint rerum, aut at ipsa, inventore modi omnis!</p></td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="side-link text-center">
+      <a href="#sports"><i class="far fa-futbol"></i></a>
+    </div>
+  </div>
+  <div id="page-content">
+    <div class="container">
+        <div class="card" id="presentation">
+          <img src="images/pp.jpg" alt="Profile picture" class="profile">
+          <h1>Léon</h1>
+          <h2>💻 Ruby programmer 💻</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptates inventore numquam expedita nihil eius commodi laboriosam nostrum nobis? Illum dolorem adipisci commodi quo iste ducimus omnis soluta, ipsam perspiciatis.</p>
+        </div>
+        <div class="card" id="social-network">
+          <ul class="list-inline text-center">
+            <li><a class="link-social" href="https://www.facebook.com/leon.boutrand" target="_blank"><i class="fab fa-facebook-f"></i><br>Facebook profile</a></li>
+            <li><a class="link-social" href="https://www.linkedin.com/in/leon-boutrand/" target="_blank"><i class="fab fa-linkedin-in"></i><br>LinkedIn profile</a></li>
+          </ul>
+        </div>
+        <div class="card" id="sports">
+          <h2>My favorite sports</h2>
+          <table>
+            <tbody class="text-center">
+              <tr>
+                <td><img src="images/zidane.jpeg" alt="Football"></td>
+                <td><h3>Football</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci temporibus qui sint fugiat alias saepe dicta perferendis, unde quas incidunt inventore nisi molestias deserunt, facere in consequuntur delectus eveniet eligendi?</p></td>
+              </tr>
+              <tr>
+                <td><img src="images/petanque.jpeg" alt="Pétanque"></td>
+                <td><h3>Pétanque</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto impedit, doloribus, accusantium tempore enim doloremque repellendus repudiandae, perspiciatis natus laboriosam voluptatibus dolorem tenetur rerum voluptatem neque voluptatum! Commodi molestiae, similique.</p></td>
+              </tr>
+              <tr>
+                <td><img src="images/pingpong.jpeg" alt="Ping-Pong"></td>
+                <td><h3>Ping-Pong</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsam consectetur reprehenderit deleniti laboriosam delectus sit saepe, aliquid illo veniam suscipit voluptas sint rerum, aut at ipsa, inventore modi omnis!</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
     </div>
   </div>
 </body>

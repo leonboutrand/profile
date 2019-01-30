@@ -18,11 +18,15 @@ h1 {
 }
 
 a {
-  color: #162c61;
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-decoration: none;
   line-height: 30px;
   display: block;
+
+}
+
+.link-social {
+  color: #162c61;
   margin:0px;
   padding:10px;
 }
@@ -69,23 +73,72 @@ i {
   padding-left: 0px;
 }
 
+/* sidebar */
+
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(30,30,30);
+  padding-top: 80px;
+}
+
+.side-link {
+  margin-left:60px;
+}
+
+.side-link > a {
+  color: rgb(180,180,180);
+  padding: 25px;
+}
+
+.side-link > a:hover {
+  color: rgb(200,200,200);
+  background-color: rgba(255,255,255,0.2);
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
 /* medias */
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 500px;
   }
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 400px;
   }
+
+  #sidebar {
+    width: 120px;
+  }
+
+  #page-content {
+    margin-left: 120px;
+  }
+
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
+
+  #sidebar {
+    width: 120px;
+  }
+
+  #page-content {
+    margin-left: 120px;
+  }
+
 }
